@@ -58,7 +58,7 @@ createListView(mainContent);
 
 function createListView(mainContent) {
   const list = document.createElement("div");
-  list.innerHTML = "<h2>List View</h2><ul></ul>";
+  list.innerHTML = "<h2>List View</h2><ul>New list</ul>";
   mainContent.appendChild(list);
 }
 
